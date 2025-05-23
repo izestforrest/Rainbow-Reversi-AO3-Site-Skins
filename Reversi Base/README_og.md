@@ -4,7 +4,9 @@ This is the original Reversi color palette, but with all of my CSS edits applied
 > This page is still in progress
 #### Palette
 From original: #333, #222, #2a2a2a, #555, #232323, #5998e6, #111, #eee, #fff, #F2EFEC\
-Added colors: #ccc, #2e2e2e, #303030, #2b2b2b, #262626
+![333](https://readme-swatches.vercel.app/333?style=circle) ![222](https://readme-swatches.vercel.app/222?style=circle) ![2a2a2a](https://readme-swatches.vercel.app/2a2a2a?style=circle) ![555](https://readme-swatches.vercel.app/555?style=circle) ![232323](https://readme-swatches.vercel.app/232323?style=circle) ![5998e6](https://readme-swatches.vercel.app/5998e6?style=circle) ![111](https://readme-swatches.vercel.app/111?style=circle) ![eee](https://readme-swatches.vercel.app/eee?style=circle) ![fff](https://readme-swatches.vercel.app/fff?style=circle) ![f2efec](https://readme-swatches.vercel.app/f2efec?style=circle) \
+Added colors: #ccc, #2e2e2e, #303030, #2b2b2b, #262626\
+![ccc](https://readme-swatches.vercel.app/ccc?style=circle) ![2e2e2e](https://readme-swatches.vercel.app/2e2e2e?style=circle) ![303030](https://readme-swatches.vercel.app/303030?style=circle) ![2b2b2b](https://readme-swatches.vercel.app/2b2b2b?style=circle) ![262626](https://readme-swatches.vercel.app/262626?style=circle) 
 
 > text color: `#eee`\
 > link, .current color: `#fff`\
