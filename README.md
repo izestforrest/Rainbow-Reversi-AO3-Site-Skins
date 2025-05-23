@@ -4,9 +4,11 @@ A collection of Site Skins that customize the color palette of Reversi, AO3's bu
 > This page is currently still in progress
 
 ### How to View
-Each skin has its own folder, above this README file. Inside each folder, each skin has its own README with palette swatches and (eventually) preview images. My goal is to eventually also link them in the checklist below. The code you need to copy/paste will be in its own file, titled "COPYME".
+Each skin has its own folder, above this README file. Inside each folder, each skin has its own README with palette swatches and (eventually) preview images. As I upload, I will also link the skin folders in the checklist below. The code you need to copy/paste will be in its own file, titled "COPYME".
+> [!TIP]
+> Github has an easy copy-paste feature. When viewing code, check the menus at the top of the textbox for "Copy" or "Copy Raw File"
 
-### Included in this project:
+### Skins included in this project:
 - [x] [Reversi Base](https://github.com/izestforrest/Rainbow-Reversi-AO3-Site-Skins/tree/main/Reversi%20Base)
     - This is the original Reversi color palette, but includes my personalizations in the CSS. Most of the changes are quality of life edits (ex: sometimes on mobile, 2 lines of text in a header would overlap each other a bit) or simply personal preference (all of the user avatar images are now circular).
 - [ ] Sea Green ![16332e](https://readme-swatches.vercel.app/16332e?style=round)
