@@ -1,14 +1,13 @@
-/*#outer .region,*/
+/*BASE CODE*/
+/*I removed an #outer selector from here because it was hard to override*/
 #footer .group,
 .post fieldset fieldset,
 fieldset fieldset {
   background: none;
 }
 
+/*Removed some .group and .region selectors from here because they were hard to override*/
 body,
-/*.group,
-.group .group,
-.region,*/
 .flash,
 fieldset,
 fieldset fieldset ul,
@@ -84,8 +83,7 @@ th,
   background: #333; 
 }
 
-/*#header ul.primary,
-#outer #footer,*/
+/*Removed the header and footer selectors from here because I used a different design there. Also, this used to be an image of gray static, and I’ve replaced it with a gradient.*/
 .toggled form,
 fieldset  {
   background:  linear-gradient(#333 0%, #2b2b2b 85%);
@@ -150,6 +148,7 @@ dl.index dd,
   box-shadow: -1px -1px 3px #111; 
 }
 
+/*Tweaked this to make it more specific*/
 input[type=text],
 textarea {
   box-shadow: inset 0 1px 2px #111; 
@@ -171,16 +170,17 @@ a.tag:hover,
 .listbox .heading a.tag:visited:hover,
 .symbol .question,
 .qtip-content {
-  background: #D65E89; 
+  background: #5998e6; 
   color: #232323;
 }
 
 .splash .favorite li:nth-of-type(odd) a:hover,
 .splash .favorite li:nth-of-type(odd) a:focus {
-  background: #D65e89; 
+  background: #5998e6; 
   color: #232323; 
 }
 
+/*Added a couple of :hover selectors here*/
 #header #greeting img,
 #header .heading a,
 #header .heading a:visited,
@@ -215,7 +215,7 @@ a.work,
 a.cloud7,
 a.cloud8,
 #tos_prompt .heading {
-  color: #D65e89; 
+  color: #5998e6; 
 }
 
 #greeting .icon,
@@ -231,7 +231,7 @@ input.LV_invalid_field:active,
 textarea.LV_invalid_field:hover,
 textarea.LV_invalid_field:active,
 .qtip-content {
-  border-color: #D65e89; 
+  border-color: #5998e6; 
 }
 
 a,
@@ -314,6 +314,8 @@ span.delete {
   box-shadow: none;
 }
 
+/*Removed this because it was causing issues and I’m not sure what its purpose was. Keeping it here in brackets*/
+
 /*ul.required-tags,
 .bookmark .status span,
 .blurb .icon {
@@ -372,7 +374,9 @@ form dd.required {
   color: #CCC; 
 }
 
-/*General site fixes*/
+/*GENERAL SITE FIXES*/
+
+/*Whenever there’s a button inside a .notice, it still had a text color of black as well as a black bottom-border. Since it still had the action/button appearance (with a dark background), this made it illegible.*/
 
 .notice a,
 .notice a:link,
@@ -389,10 +393,14 @@ form dd.required {
   color: inherit;
 }
 
+/*Long code in the Site Skin page wasn’t wrapping on mobile, which made it annoying to scroll through. Also it was ugly.*/
+
 #main pre, #main p, #main li, #main dd, dl.stats dd {
   text-wrap-mode: wrap;
   overflow-wrap: break-word;
 }
+
+/*Notoriously, search boxes in the “Search and Filter” sidebar have their right-hand side cut-off. The next few rules are in relation to that, as well as making the textboxes a bit easier to see in dark mode.*/
 
 input[type=text]:not(#header .text),
 textarea {
@@ -412,19 +420,10 @@ textarea,
 /*  box-shadow: none;*/
 }
 
+/*Fixing a few spacing issues where text is cramped.*/
+
 .toggled form p.footnote, .dynamic form p.footnote, .toggled .bookmark form p.footnote {
   line-height: 1.5;
-}
-
-.index .picture .icon {
-  border: 2px solid #333;
-  top: -.5em;
-}
-.index .picture .icon img {
-  border: 2px solid #333;
-  top: -.1em;
-  right:-.1em;
-  background: black;
 }
 
 h2 {
@@ -435,13 +434,31 @@ h4 {
   line-height: 1.4;
 }
 
+/*Fixing bad .icon positioning in a couple of places*/
+
+.index .picture .icon {
+  border: 2px solid #333;
+  top: -.5em;
+}
+
+.index .picture .icon img {
+  border: 2px solid #333;
+  top: -.1em;
+  right:-.1em;
+  background: black;
+}
+
+/*I added this the other day and have already forgotten what it was for*/
+
 span > a {
   vertical-align: center;
   line-height: 25px;
 }
 
 
-/*Mobile-specific fixes*/
+/*MOBILE-SPECIFIC FIXES*/
+
+/*Ever noticed how on mobile, the buttons for “Edit Work”, etc on your dashboard cover up part of your profile image? Dastardly. Obnoxious.*/
 
 .user.home .navigation,
 .skins.home .navigation,
@@ -450,6 +467,8 @@ span > a {
   text-align: right;
 }
 
+/*Fixed some cramped text in forms*/
+
 label.action {
   height: fit-content;
   display: flex;
@@ -457,17 +476,23 @@ label.action {
   align-items: center;
 }
 
+/*AO3 specifically wanted a giant ugly gray border on the bottom of user profile images in comments. For some godforsaken reason. I hate it, it’s evil. Begone.*/
+
 .comment div.icon {
   border-bottom: none;
 }
 
-/*Reversi Fixes*/
+/*REVERSI-SPECIFIC FIXES*/
+
+/*These were still AO3 red instead of Reversi’s accent color.*/
 
 #header .user .open a:focus,
 label.action:hover, 
 .action:hover, .action:focus {
-  color: #D65e89;
+  color: #5998e6;
 }
+
+/*Improves legibility*/
 
 .dropdown, 
 .autocomplete div.dropdown ul {
@@ -481,24 +506,34 @@ label.action:hover,
   color: #232323;
 }
 
+/*This won’t be noticeable in the Reversi palette; I added this so that it changes color with the rest of the code.*/
+
 .symbol .question {
   border-color: currentcolor; 
 }
+
+/*The original background was ugly and unnecessary. Now it matches the palette.*/
 
 .required-tags .rating-notrated, .required-tags .category-none, .required-tags .warning-no, .status .count {
   background: #555;
 }
 
+/*The original color was less legible on a dark background.*/
+
 .bookmark .count a {
   color: #CCC;
 }
+
+/*There was an ugly white glow behind this box.*/
 
 form .notice, form ul.notes {
 box-shadow: none;
 }
 
 
-/*Personalization*/
+/*PERSONALIZATION*/
+
+/*Circular icons*/
 
 .primary .icon,
 a img,
@@ -506,17 +541,19 @@ a img,
 border-radius: 90%;
 }
 
+/*I wanted all of the “x” buttons on the site to be circular, and to be uniform with each other.*/
+
 .close.actions > a {
   background: none;
   border-radius: 90%;
-  border: 2px solid #D65e89;
+  border: 2px solid #5998e6;
   box-shadow: none;
   padding: .25em .5em;
-  color: #D65e89;
+  color: #5998e6;
   font-weight: bold;
 }
 
-/*color 44b, bkg dde, border 89e*/
+/*This overrides the default Safari, Chrome, Firefox, etc appearance of some dropdowns and “Choose File” buttons.*/
 select,
 option,
 input[type="file"]::file-selector-button {
@@ -527,7 +564,7 @@ input[type="file"]::file-selector-button {
 }
 
 
-/*bkg #dde, border #89e*/
+/*My own custom checkboxes - this will span several rules*/
 input[type=checkbox] {
   appearance: none;
   -webkit-appearance: none;
@@ -543,14 +580,13 @@ input[type=checkbox] {
   background: #CCC;
 }
 
-/*bkg #bbe, border #79c*/
 input[type=checkbox]:hover {
   background: #2e2e2e;
   border: 2px inset #232323;
 }
 
 input[type=checkbox]:focus {
-  outline: 1px dashed #D65e89;
+  outline: 1px dashed #5998e6;
 }
 
 input[type=checkbox]:checked {
@@ -570,16 +606,14 @@ input[type="checkbox"] + label {
   vertical-align: middle;
 }
 
+/*My own custom header and footer backgrounds*/
+
 #header, #footer {
   background: conic-gradient(from 90deg at 2% 2%, #0000 25%, #303030 0%),
 linear-gradient(45deg, #0000 49%, #303030 0 51%, #0000 0),
 linear-gradient(-45deg, #2b2b2b 49%, #303030 0 51%, #2b2b2b 0);
   background-size: 3em 3em, 6em 6em, 6em 6em;
   background-position: -1% -1%, auto, auto;
-}
-
-.javascript {
-background: #2b2b2b;
 }
 
 #header .primary {
@@ -589,3 +623,10 @@ background: #2b2b2b;
 #header .heading {
   height: 5em;
 }
+
+/*I changed the javascript background to match my header a bit better.*/
+
+.javascript {
+background: #2b2b2b;
+}
+
