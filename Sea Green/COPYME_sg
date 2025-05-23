@@ -388,10 +388,8 @@ form dd.required {
 
 /*Notoriously, search boxes in the “Search and Filter” sidebar have their right-hand side cut-off. The next few rules are in relation to that, as well as making the textboxes a bit easier to see in dark mode.*/
 
-input[type=text]:not(#header .text),
-textarea {
-  max-width: 97%;
-  box-sizing: border-box;
+.filters dd select, .filters dd input {
+  min-width: revert;
 }
 
 input[type=text],
