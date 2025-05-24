@@ -4,7 +4,7 @@ This is the original Reversi color palette, but with all of my CSS edits applied
 ## Side-by-Side
 On the left is the Reversi skin with no edits - and on the right is my version with some edits and personalizations.
 
-<img src="Reversi_Original.png" alt="original img" style="width:40%;"/> <img src="Reversi_Edit_Preview.png" alt="zesty edit img" style="width:40%;"/>
+<img src="/images/Reversi_Original.png" alt="original img" style="width:40%;"/> <img src="/images/Reversi_Edit_Preview.png" alt="zesty edit img" style="width:40%;"/>
 
 The main visible differences in these samples are the header background, the background for the Log In link (since Reversi is only meant to be used when logged in, it makes sense that AO3 didn't fix this), the "Date Updated" filter dropdown, and the cut-off search bars in the filter sidebar.
 
