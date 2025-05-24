@@ -448,7 +448,7 @@ h4 {
   background: black;
 }
 
-/*I added this the other day and have already forgotten what it was for*/
+/*This centers the bookmark counter # in its little box*/
 
 span > a {
   vertical-align: center;
@@ -476,7 +476,7 @@ label.action {
   align-items: center;
 }
 
-/*AO3 specifically wanted a giant ugly gray border on the bottom of user profile images in comments. For some godforsaken reason. I hate it, it’s evil. Begone.*/
+/*AO3 purposefully added a giant ugly gray border on the bottom of user profile images in comments. For some godforsaken reason. I hate it, it’s evil. Begone.*/
 
 .comment div.icon {
   border-bottom: none;
@@ -578,6 +578,11 @@ input[type=checkbox] {
   text-align: center;
   line-height: 1;
   background: #CCC;
+}
+
+input[type="checkbox"]:after {
+  content: "L";
+  color: #CCC;
 }
 
 input[type=checkbox]:hover {
