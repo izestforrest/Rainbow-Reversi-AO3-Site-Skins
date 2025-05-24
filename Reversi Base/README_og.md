@@ -1,6 +1,13 @@
 # Reversi Base
 This is the original Reversi color palette, but with all of my CSS edits applied.
 
+## Side-by-Side
+On the left is the Reversi skin with no edits - and on the right is my version with some edits and personalizations.
+
+<img src="Reversi_Original.png" alt="original img" style="width:40%;"/> <img src="Reversi_Edit_Preview.png" alt="zesty edit img" style="width:40%;"/>
+
+The main visible differences in these samples are the header background, the background for the Log In link (since Reversi is only meant to be used when logged in, it makes sense that AO3 didn't fix this), the "Date Updated" filter dropdown, and the cut-off search bars in the filter sidebar.
+
 ## Palette
 From original: #333, #222, #2a2a2a, #555, #232323, #5998e6, #111, #eee, #fff, #F2EFEC\
 ![333](https://readme-swatches.vercel.app/333?style=circle) ![222](https://readme-swatches.vercel.app/222?style=circle) ![2a2a2a](https://readme-swatches.vercel.app/2a2a2a?style=circle) ![555](https://readme-swatches.vercel.app/555?style=circle) ![232323](https://readme-swatches.vercel.app/232323?style=circle) ![5998e6](https://readme-swatches.vercel.app/5998e6?style=circle) ![111](https://readme-swatches.vercel.app/111?style=circle) ![eee](https://readme-swatches.vercel.app/eee?style=circle) ![fff](https://readme-swatches.vercel.app/fff?style=circle) ![f2efec](https://readme-swatches.vercel.app/f2efec?style=circle) \
