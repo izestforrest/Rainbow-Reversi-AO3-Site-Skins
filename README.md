@@ -1,7 +1,7 @@
 # "Rainbow Reversi" - an AO3 Site Skin Project
 A collection of Site Skins that customize the color palette of Reversi, AO3's built-in Dark Mode option
 
-<img alt="ao3 header" height="50px" src="/images/1_pk.png"> <img alt="ao3 header" height="50px" src="/images/2_sg.png"> <img alt="ao3 header" height="50px" src="/images/3_tl.png"> <img alt="ao3 header" height="50px" src="/images/4_ib.png"> <img alt="ao3 header" height="50px" src="/images/5_pr.png">
+<img alt="ao3 header" height="50px" src="/images/1_pk.png"> <img alt="ao3 header" height="50px" src="/images/2_sg.png"> <img alt="ao3 header" height="50px" src="/images/3_tl.png"> <img alt="ao3 header" height="50px" src="/images/4_ib2.png"> <img alt="ao3 header" height="50px" src="/images/5_pr.png">
 
 ### How to View
 Each skin has its own folder, above this README file. Inside each folder, each skin has its own README with palette swatches and (eventually) preview images. As I upload, I will also link the skin folders in the checklist below. The code you need to copy/paste will be in its own file, titled "COPYME".
