@@ -7,10 +7,10 @@ Each skin has its own folder, above this README file. Inside each folder, each s
 > Github has an easy copy-paste feature. When viewing code, check the menus at the top of the textbox for "Copy" or "Copy Raw File"
 
 ### Skins included in this project:
-- [x] [Reversi Base](https://github.com/izestforrest/Rainbow-Reversi-AO3-Site-Skins/tree/main/Reversi%20Base)
+- [x] [Reversi Base](https://github.com/izestforrest/Rainbow-Reversi-AO3-Site-Skins/tree/main/Reversi%20Base/README_og.md)
     - This is the original Reversi color palette, but includes my personalizations in the CSS. Most of the changes are quality of life edits (ex: sometimes on mobile, 2 lines of text in a header would overlap each other a bit) or simply personal preference (all of the user avatar images are now circular).
-- [x] [Sea Green](https://github.com/izestforrest/Rainbow-Reversi-AO3-Site-Skins/tree/main/Sea%20Green) ![16332e](https://readme-swatches.vercel.app/16332e?style=round)
-- [x] [Indigo Blue](https://github.com/izestforrest/Rainbow-Reversi-AO3-Site-Skins/tree/main/Indigo%20Blue) ![201f34](https://readme-swatches.vercel.app/201f34?style=round)
+- [x] [Sea Green](https://github.com/izestforrest/Rainbow-Reversi-AO3-Site-Skins/tree/main/Sea%20Green/README_sg.md) ![16332e](https://readme-swatches.vercel.app/16332e?style=round)
+- [x] [Indigo Blue](https://github.com/izestforrest/Rainbow-Reversi-AO3-Site-Skins/blob/main/Indigo%20Blue/README_ib.md) ![201f34](https://readme-swatches.vercel.app/201f34?style=round)
 - [ ] Dark Pink ![2a0e1a](https://readme-swatches.vercel.app/2a0e1a?style=round)
 - [ ] Teal ![112833](https://readme-swatches.vercel.app/112833?style=round)
 - [ ] Indigo Purple ![1c1133](https://readme-swatches.vercel.app/1c1133?style=round)
