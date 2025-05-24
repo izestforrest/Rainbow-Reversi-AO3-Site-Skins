@@ -1,6 +1,9 @@
 # Reversi Indigo Blue
 This is a Reversi lookalike with a deep indigo blue palette. Most of the shades have a hue value of 240 degrees.
 
+## Previews
+<img src="IndigoBlue_Dashboard.png" alt="dashboard img" style="width:30%;"/> <img src="IndigoBlue_TagFilter.png" alt="tag filter img" style="width:30%;"/> <img src="IndigoBlue_comment.png" alt="dashboard img" style="width:30%;"/>
+
 ## Palette
 From original: #eee, #fff, #F2EFEC\
 ![eee](https://readme-swatches.vercel.app/eee?style=circle) ![fff](https://readme-swatches.vercel.app/fff?style=circle) ![f2efec](https://readme-swatches.vercel.app/f2efec?style=circle) \
