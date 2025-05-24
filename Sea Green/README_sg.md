@@ -1,6 +1,9 @@
 # Reversi Sea Green
 This is a Reversi lookalike with a sea green palette. Most of the shades have a hue value of 170 degrees.
 
+## Previews
+<img src="/images/SeaGreen_dashboard.png" alt="dashboard img" style="width:30%;"/> <img src="/images/SeaGreen_tagfilters.png" alt="tag filter img" style="width:30%;"/> <img src="/images/SeaGreen_comment.png" alt="dashboard img" style="width:30%;"/>
+
 ## Palette
 From original: #eee, #fff, #F2EFEC\
 ![eee](https://readme-swatches.vercel.app/eee?style=circle) ![fff](https://readme-swatches.vercel.app/fff?style=circle) ![f2efec](https://readme-swatches.vercel.app/f2efec?style=circle) \
