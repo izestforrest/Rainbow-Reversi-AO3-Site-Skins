@@ -572,6 +572,11 @@ input[type=checkbox] {
   background: #B6DED7;
 }
 
+input[type="checkbox"]:after {
+  content: "L";
+  color: #B6DED7;
+}
+
 input[type=checkbox]:hover {
   background: #23403B;
   border: 2px inset #16332e;
