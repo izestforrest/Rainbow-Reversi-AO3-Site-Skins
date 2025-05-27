@@ -1,5 +1,7 @@
 # Reversi Indigo Blue
 This is a Reversi lookalike with a deep indigo blue palette. Most of the shades have a hue value of 240 degrees.
+> [!TIP]
+> Don't know how to use Site Skins? Read my guide [here](https://github.com/izestforrest/Rainbow-Reversi-AO3-Site-Skins/blob/main/README.md#how-to-use-a-site-skin)!
 
 ## Previews
 <img src="/images/IndigoBlue_dashboard.png" alt="dashboard img" style="width:30%;"/> <img src="/images/IndigoBlue_tagfilters.png" alt="tag filter img" style="width:30%;"/> <img src="/images/IndigoBlue_comment.png" alt="dashboard img" style="width:30%;"/>
