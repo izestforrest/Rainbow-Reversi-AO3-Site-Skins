@@ -1,7 +1,7 @@
 # Reversi Teal
 This is a Reversi lookalike with a dark teal palette. Most of the shades have a hue value of 200 degrees.
-
-#263740, #19252A, #1F2D34, #405C6A, #1A262C, #D68F59, #B8D3E0, #0A1318, #223239, #172B36, #1A313D, #1D3744
+> [!TIP]
+> Don't know how to use Site Skins? Read my guide [here](https://github.com/izestforrest/Rainbow-Reversi-AO3-Site-Skins/blob/main/README.md#how-to-use-a-site-skin)!
 
 ## Palette
 From original: #eee, #fff, #F2EFEC\
