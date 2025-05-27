@@ -1,0 +1,648 @@
+/*BASE CODE*/
+/*I removed an #outer selector from here because it was hard to override*/
+#footer .group,
+.post fieldset fieldset,
+fieldset fieldset {
+  background: none;
+}
+
+/*Removed some .group and .region selectors from here because they were hard to override*/
+body,
+.flash,
+fieldset,
+fieldset fieldset ul,
+form dl,
+textarea,
+#main .verbose legend,
+.verbose fieldset,
+.notice,
+ul.notes,
+input,
+textarea,
+table,
+th,
+td:hover,
+tr:hover,
+.symbol .question:hover,
+#modal,
+.ui-sortable li,
+.required .autocomplete,
+.autocomplete .notice,
+.system .intro,
+.comment_error,
+.kudos_error,
+div.dynamic,
+.dynamic form,
+#ui-datepicker-div,
+.ui-datepicker table {
+  background: #263740; 
+  color: #eee; 
+  border-color: #0A1318; 
+  outline: #0A1318; 
+  box-shadow: none;
+}
+
+#header .actions a:hover,
+#header .actions a:focus,
+#header .dropdown:hover a,
+#header .open a,
+#header .menu,
+#small_login,
+.group.listbox,
+fieldset fieldset.listbox,
+form blockquote.userstuff,
+input:focus,
+textarea:focus,
+li.relationships a,
+.group.listbox .index,
+.dashboard fieldset fieldset.listbox .index,
+#dashboard a:hover,
+th,
+#dashboard .secondary,
+.secondary,
+.thread .even,
+.system .tweet_list li,
+.ui-datepicker tr:hover {
+  background: #1F2D34; 
+}
+
+#header .dropdown .menu a:hover,
+#header .dropdown .menu a:focus,
+.splash .favorite li:nth-of-type(odd) a,
+.ui-datepicker td:hover,
+#tos_prompt .heading,
+#tos_prompt [disabled] {
+  background: #1A262C; 
+}
+
+#outer,
+.javascript,
+.statistics .index li:nth-of-type(even),
+#tos_prompt,
+.announcement input[type="submit"] {
+  background: #263740; 
+}
+
+/*Removed the header and footer selectors from here because I used a different design there. Also, this used to be an image of gray static, and I’ve replaced it with a gradient.*/
+.toggled form,
+fieldset  {
+  background:  linear-gradient(#263740 0%, #1A313D 85%);
+}
+
+#header ul.primary,
+#footer {
+  border-top: 1px solid #0A1318;
+  border-bottom: 1px solid #0A1318;
+  box-shadow: none;
+}
+
+#dashboard ul,
+dl.meta,
+.group.listbox,
+fieldset fieldset.listbox,
+#main li.blurb,
+form blockquote.userstuff,
+div.comment,
+li.comment,
+.toggled form,
+form dl dt,
+form.single fieldset,
+#inner .module .heading,
+.bookmark .status span,
+.splash .news li,
+.filters .group dt.bookmarker,
+.bookmark .user {
+  border-color: #405C6A; 
+}
+
+.group.listbox,
+fieldset fieldset.listbox,
+#main li.blurb,
+.wrapper,
+#dashboard .secondary,
+.secondary,
+form blockquote.userstuff,
+.thread .comment,
+.toggled form {
+  box-shadow: 1px 1px 3px #0A1318; 
+}
+
+#dashboard .current,
+.actions a:active,
+#outer .current,
+a.current,
+.current a:visited,
+span.unread,
+.replied,
+span.claimed,
+dl.index dd,
+.own,
+.draft,
+.draft .unread,
+.child,
+.unwrangled,
+.unreviewed,
+.ui-sortable li:hover {
+  background: #1A262C; 
+  border-color: #405C6A; 
+  box-shadow: -1px -1px 3px #0A1318; 
+}
+
+/*Tweaked this to make it more specific*/
+input[type=text],
+textarea {
+  box-shadow: inset 0 1px 2px #0A1318; 
+}
+
+li.blurb,
+.blurb .blurb,
+.listbox .index,
+fieldset fieldset.listbox,
+.dashboard .listbox .index {
+  box-shadow: inset 1px 1px 3px #0A1318; 
+}
+
+#footer a:hover,
+#footer a:focus,
+.autocomplete .dropdown ul li:hover,
+.autocomplete .dropdown li.selected,
+a.tag:hover,
+.listbox .heading a.tag:visited:hover,
+.symbol .question,
+.qtip-content {
+  background: #D68F59; 
+  color: #1A262C;
+}
+
+.splash .favorite li:nth-of-type(odd) a:hover,
+.splash .favorite li:nth-of-type(odd) a:focus {
+  background: #D68F59; 
+  color: #1A262C; 
+}
+
+/*Added a couple of :hover selectors here*/
+#header #greeting img,
+#header .heading a,
+#header .heading a:visited,
+#header .user a:hover,
+#header .user a:focus,
+#header fieldset,
+#header form,
+#header p,
+#dashboard a:hover,
+.actions a:hover,
+.actions button:hover,
+.actions input:hover,
+label.action:hover,
+.action:hover,
+.delete a,
+span.delete,
+span.unread,
+.replied,
+span.claimed,
+.draggable,
+.droppable,
+span.requested,
+a.work,
+.blurb h4 a:link,
+.blurb h4 img,
+.splash .module h3,
+.splash .browse li a:before,
+.required,
+.error,
+.comment_error,
+.kudos_error,
+a.cloud7,
+a.cloud8,
+#tos_prompt .heading {
+  color: #D68F59; 
+}
+
+#greeting .icon,
+#dashboard,
+#dashboard.own,
+.error,
+.comment_error,
+.kudos_error,
+.LV_invalid,
+.LV_invalid_field,
+input.LV_invalid_field:hover,
+input.LV_invalid_field:active,
+textarea.LV_invalid_field:hover,
+textarea.LV_invalid_field:active,
+.qtip-content {
+  border-color: #D68F59; 
+}
+
+a,
+a:link,
+a.tag,
+#header a,
+#header a:visited,
+#header .primary .open a,
+#header .primary .dropdown:hover a,
+#header .primary .dropdown a:focus,
+#header #search input:focus,
+#header #search input:hover,
+#dashboard a,
+#dashboard span,
+#dashboard .current,
+.heading,
+.group .heading,
+.filters dt a:hover {
+  color: #fff; 
+}
+
+a:visited,
+.actions a:visited,
+.action a:link,
+.action a:visited,
+.listbox .heading a:visited,
+span.series .divider {
+  color: #B8D3E0; 
+}
+
+.actions a,
+.actions a:link,
+.action,
+.action:link,
+.actions button,
+.actions input,
+input[type="submit"],
+button,
+.current,
+.actions label,
+#header .actions a {
+  background: #405C6A; 
+  border-color: #19252A; 
+  color: #eee; 
+  box-shadow: inset 0 -8px 4px #1A262C, inset 0 8px 7px #405C6A; 
+  text-shadow: none;
+}
+
+.actions a:hover,
+.actions button:hover,
+.actions input:hover,
+#dashboard a:hover,
+.actions a:focus,
+.actions button:focus,
+.actions input:focus,
+#dashboard a:focus,
+.actions .disabled select {
+  color: #B8D3E0; 
+  border-color: #0A1318; 
+  box-shadow: inset 2px 2px 2px #0A1318; 
+}
+
+.actions a:active,
+.current,
+a.current,
+.current a:visited {
+  color: #fff; 
+  background: #405C6A; 
+  border-color: #fff; 
+  box-shadow: inset 1px 1px 3px #263740; 
+}
+
+.delete a,
+span.delete {
+  box-shadow: -1px -1px 2px rgba(255,255,255.25);
+}
+
+.actions label.disabled {
+  background: #1A262C; 
+  box-shadow: none;
+}
+
+/*Removed this because it was causing issues and I’m not sure what its purpose was. Keeping it here in brackets*/
+
+/*ul.required-tags,
+.bookmark .status span,
+.blurb .icon {
+  opacity: 0.9;
+  border: 0;
+}*/
+
+#outer .group .heading,
+#header .actions a,
+fieldset.listbox .heading,
+.userstuff .heading,
+.heading,
+.userstuff h2 {
+  text-shadow: none;
+  color: #fff; 
+  background: none;
+}
+
+#header .actions a,
+fieldset fieldset,
+.mce-container button,
+.filters .expander,
+.actions .disabled select {
+  box-shadow: none;
+}
+
+fieldset fieldset.listbox {
+  outline: none;
+}
+
+form dd.required {
+  color: #B8D3E0; 
+}
+
+.mce-container input:focus {
+  background: #F3EFEC; 
+}
+
+.announcement .userstuff a,
+.announcement .userstuff a:link,
+.announcement .userstuff a:visited:hover {
+  color: #1A262C; 
+}
+
+.announcement .userstuff a:visited {
+  color: #B8D3E0; 
+}
+
+.announcement .userstuff a:hover,
+.announcement .userstuff a:focus {
+  color: #B8D3E0; 
+}
+
+.event.announcement .userstuff a,
+.filters .expander {
+  color: #B8D3E0; 
+}
+
+/*GENERAL SITE FIXES*/
+
+/*Whenever there’s a button inside a .notice, it still had a text color of black as well as a black bottom-border. Since it still had the action/button appearance (with a dark background), this made it illegible.*/
+
+.notice a,
+.notice a:link,
+.notice a:visited,
+.caution a,
+.caution a:link,
+.caution a:visited {
+  border: none;
+  border-bottom: none;
+  text-decoration: none;
+}
+
+.notice a.action {
+  color: inherit;
+}
+
+/*Long code in the Site Skin page wasn’t wrapping on mobile, which made it annoying to scroll through. Also it was ugly.*/
+
+#main pre, #main p, #main li, #main dd, dl.stats dd {
+  text-wrap-mode: wrap;
+  overflow-wrap: break-word;
+}
+
+/*Notoriously, search boxes in the “Search and Filter” sidebar have their right-hand side cut-off. The next few rules are in relation to that, as well as making the textboxes a bit easier to see in dark mode.*/
+
+input[type=text]:not(#header .text),
+textarea {
+  max-width: 97%;
+  box-sizing: border-box;
+}
+
+select,
+.autocomplete input[type=text] {
+  min-width: revert;
+}
+
+input[type=text],
+textarea,
+#search .text {
+  background: #223239;
+/*  box-shadow: none;*/
+}
+
+/*Fixing a few spacing issues where text is cramped.*/
+
+.toggled form p.footnote, .dynamic form p.footnote, .toggled .bookmark form p.footnote {
+  line-height: 1.5;
+}
+
+h2 {
+  padding: 0 0 .429em 0;
+}
+
+h4 {
+  line-height: 1.4;
+}
+
+/*Fixing bad .icon positioning in a couple of places*/
+
+.index .picture .icon {
+  border: 2px solid #263740;
+  top: -.5em;
+}
+
+.index .picture .icon img {
+  border: 2px solid #263740;
+  top: -.1em;
+  right:-.1em;
+  background: black;
+}
+
+/*This centers the bookmark counter # in its little box*/
+
+span > a {
+  vertical-align: center;
+  line-height: 25px;
+}
+
+
+/*MOBILE-SPECIFIC FIXES*/
+
+/*Ever noticed how on mobile, the buttons for “Edit Work”, etc on your dashboard cover up part of your profile image? Dastardly. Obnoxious.*/
+
+.user.home .navigation,
+.skins.home .navigation,
+.collection.home .navigation {
+  margin-left: 100px;
+  text-align: right;
+}
+
+/*Fixed some cramped text in forms*/
+
+label.action {
+  height: fit-content;
+  display: flex;
+  width: fit-content;
+  align-items: center;
+}
+
+/*AO3 purposefully added a giant ugly gray border on the bottom of user profile images in comments. For some godforsaken reason. I hate it, it’s evil. Begone.*/
+
+.comment div.icon {
+  border-bottom: none;
+}
+
+/*REVERSI-SPECIFIC FIXES*/
+
+/*These were still AO3 red (or black) instead of Reversi’s accent color.*/
+
+#header .user .open a:focus,
+label.action:hover, 
+.action:hover, 
+.action:focus,
+a:visited:hover,
+.bookmark .count a:hover, 
+.bookmark .count a:focus {
+  color: #D68F59;
+}
+
+/*Improves legibility*/
+
+.dropdown, 
+.autocomplete div.dropdown ul {
+  background: #1F2D34; 
+  color: #eee;
+  border-color: #0A1318; 
+}
+
+.alert.flash, 
+.error:not(.flash.error) {
+  color: #1A262C;
+}
+
+/*This won’t be noticeable in the Reversi palette; I added this so that it changes color with the rest of the code.*/
+
+.symbol .question {
+  border-color: currentcolor; 
+  background-clip: content-box;
+}
+
+/*The original background was ugly and unnecessary. Now it matches the palette.*/
+
+.required-tags .rating-notrated, .required-tags .category-none, .required-tags .warning-no, .status .count {
+  background: #405C6A;
+}
+
+/*The original color was less legible on a dark background.*/
+
+.bookmark .count a {
+  color: #B8D3E0;
+}
+
+/*There was an ugly white glow behind this box.*/
+
+form .notice, form ul.notes {
+box-shadow: none;
+}
+
+
+/*PERSONALIZATION*/
+
+/*Circular icons*/
+
+.primary .icon,
+a img,
+.index .picture .icon {
+border-radius: 90%;
+}
+
+/*I wanted all of the “x” buttons on the site to be circular, and to be uniform with each other.*/
+
+.close.actions > a {
+  background: none;
+  border-radius: 90%;
+  border: 2px solid #D68F59;
+  box-shadow: none;
+  padding: .25em .5em;
+  color: #D68F59;
+  font-weight: bold;
+}
+
+/*This overrides the default Safari, Chrome, Firefox, etc appearance of some dropdowns and “Choose File” buttons.*/
+select,
+option,
+input[type="file"]::file-selector-button {
+  color: #1D3744;
+  background: #B8D3E0;
+  border: 2px solid #405C6A;
+  border-radius: 1em;
+}
+
+
+/*My own custom checkboxes - this will span several rules*/
+input[type=checkbox] {
+  appearance: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  width: 16px;
+  height: 16px;
+  border: 2px solid #405C6A;
+  border-radius: .25em;
+  font-size: 13px;
+  box-shadow: none;
+  text-align: center;
+  line-height: 1;
+  background: #B8D3E0;
+  display: inline-flex;
+  align-items: center;
+  clear: none;
+}
+
+input[type="checkbox"]:after {
+  content: "L";
+  color: transparent;
+}
+
+input[type=checkbox]:hover {
+  background: #405C6A;
+  border: 2px inset #B8D3E0;
+  color: transparent;
+}
+
+input[type=checkbox]:focus {
+  outline: 1px dashed #D68F59;
+}
+
+input[type=checkbox]:checked {
+  background: #D68F59;
+  border: 2px outset #B8D3E0;
+}
+
+input[type=checkbox]:checked:after {
+  font-weight: 700;
+  content: "L";
+  color: #1F2D34;
+  transform: rotate(30deg) scaleX(-1);
+  display: inline-block;
+  padding: 0 1.5px 1.5px 1px;
+  font-family: sans-serif;
+}
+
+input[type="checkbox"] + label {
+  vertical-align: middle;
+}
+
+/*My own custom header and footer backgrounds*/
+
+#header, #footer {
+  background: conic-gradient(from 90deg at 2% 2%, #0000 25%, #172B36 0%),
+linear-gradient(45deg, #0000 49%, #172B36 0 51%, #0000 0),
+linear-gradient(-45deg, #1A313D 49%, #172B36 0 51%, #1A313D 0);
+  background-size: 3em 3em, 6em 6em, 6em 6em;
+  background-position: -1% -1%, auto, auto;
+}
+
+#header .primary {
+  background: #1D3744;
+}
+
+#header .heading {
+  height: 5em;
+}
+
+/*I changed the javascript background to match my header a bit better.*/
+
+.javascript {
+background: #1A313D;
+}
+
