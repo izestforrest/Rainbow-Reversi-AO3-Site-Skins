@@ -14,7 +14,7 @@ Each skin has its own folder, above this README file. Inside each folder, each s
 - [x] [Sea Green](https://github.com/izestforrest/Rainbow-Reversi-AO3-Site-Skins/tree/main/Sea%20Green/README_sg.md) ![16332e](https://readme-swatches.vercel.app/16332e?style=round)
 - [x] [Indigo Blue](https://github.com/izestforrest/Rainbow-Reversi-AO3-Site-Skins/blob/main/Indigo%20Blue/README_ib.md) ![201f34](https://readme-swatches.vercel.app/201f34?style=round)
 - [x] [Dark Pink](https://github.com/izestforrest/Rainbow-Reversi-AO3-Site-Skins/blob/main/Dark%20Pink/README_pk.md) ![2a0e1a](https://readme-swatches.vercel.app/2a0e1a?style=round)
-- [ ] Teal ![112833](https://readme-swatches.vercel.app/112833?style=round)
+- [x] [Teal](https://github.com/izestforrest/Rainbow-Reversi-AO3-Site-Skins/blob/main/Teal/README_tl.md) ![112833](https://readme-swatches.vercel.app/112833?style=round)
 - [ ] Indigo Purple ![1c1133](https://readme-swatches.vercel.app/1c1133?style=round)
 - [ ] Royal Blue ![111a33](https://readme-swatches.vercel.app/111a33?style=round)
 - [ ] Purple ![221133](https://readme-swatches.vercel.app/221133?style=round)
