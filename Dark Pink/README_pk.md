@@ -1,5 +1,7 @@
 # Reversi Dark Pink
 This is a Reversi lookalike with a dark pink palette. Most of the shades have a hue value of 335 degrees.
+> [!TIP]
+> Don't know how to use Site Skins? Read my guide [here](https://github.com/izestforrest/Rainbow-Reversi-AO3-Site-Skins/blob/main/README.md#how-to-use-a-site-skin)!
 
 ## Palette
 From original: #eee, #fff, #F2EFEC\
