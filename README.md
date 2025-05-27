@@ -24,11 +24,13 @@ Each skin has its own folder, above this README file. Inside each folder, each s
 - [ ] Burnt Orange ![3e1c0b](https://readme-swatches.vercel.app/3e1c0b?style=round)
 
 ## How to Use a Site Skin
+> [!NOTE]
+> You do not need to know **ANY** coding or CSS in order to use this!
 1. You must have an AO3 account and be logged in.
 2. On your profile page (Dashboard), there is a link on your navigation bar called "Skins". This will be on the left-hand side if you are on desktop, and on mobile it will be in a box above your username and profile image.
 3. This should bring you to a page titled "My Site Skins". (You can also navigate to My Work Skins, Public Site Skins, and Public Work Skins.)
 4. Select "Create Site Skin". This will bring you to a form called Create New Skin. Make sure "Write Custom CSS" is selected (this should be the default).
-5. You do not need to know **ANY** coding or CSS in order to use this. Just choose a title, and paste your copied code into the "CSS" textbox.
+5. Choose a title, and paste your copied code into the "CSS" textbox.
 6. Select "Submit". This should bring you to a page showing your new site skin - it will all be code. Just scroll to the bottom, where you can "Use" to apply the skin, or "Preview" if you just want to see what it looks like first.
 7. Selecting "Use" on any skin will apply it, and will change AO3's appearance on any device as long as you are logged in. If you need to undo this, you can "Revert to Default Skin" on any page in the Site Skins dashboard. This option is also in the footer at the bottom of the website, so you can access it from any page on AO3 by scrolling to the bottom. Reversi is also an option linked in the footer.
 
